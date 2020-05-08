@@ -8,7 +8,7 @@ export class MyForm extends Component {
             email:'',
             password:'',
             description:'',
-            flavor:'',
+            flavor :'',
             gender:'male',
             agreement:false
 
