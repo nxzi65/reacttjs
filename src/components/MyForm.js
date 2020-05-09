@@ -21,7 +21,10 @@ export class MyForm extends Component {
         })
     } 
     submitHandler = (event) => {
-        console.log(this.state.agreement)
+        console.log(this.state)
+        setTimeout(()=>{
+            this.props.history.push('/')
+        },5000);
         event.preventDefault()
 
     }
